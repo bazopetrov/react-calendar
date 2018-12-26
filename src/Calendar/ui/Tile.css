@@ -1,0 +1,49 @@
+.tile {
+  font-size: 1rem;
+  background-color: #fff;
+  color: #555;
+  user-select: none;
+  text-align: center;
+}
+.tile.tile-date {
+  padding: 5px;
+}
+.tile.weekend,
+.tile.weekend:hover {
+  color: red;
+}
+.tile.tile-month {
+  padding: 15px 10px;
+}
+.tile:hover {
+  cursor: pointer;
+  background-color: #aeefe8;
+}
+
+.tile.grayed,
+.tile.blank,
+.tile.blank:hover {
+  background-color: #e6e6e6;
+  color: #555;
+}
+.tile.blank,
+.tile.blank:hover {
+  background-color: #fff !important;
+  color: #555 !important;
+  cursor: default;
+}
+
+.tile.selected {
+  background-color: #4093e0 !important;
+  color: #fff;
+}
+.tile.selected:hover {
+  color: #555;
+}
+.tile.disabled,
+.tile.disabled:hover {
+  background-color: #c6c6c6;
+}
+.tile.hover-range {
+  background-color: #aeefe8;
+}
